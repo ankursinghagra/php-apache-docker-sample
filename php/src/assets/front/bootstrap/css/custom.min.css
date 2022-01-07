@@ -1,0 +1,91 @@
+
+/*OWL*/
+.owl-carousel{
+	background-color: black;
+}
+.owl-carousel .item img{
+	width: 100%;
+	opacity: 0.6;
+}
+.owl-carousel .item-caption{
+	position: absolute;
+	bottom: 30%;
+	left: 10%;
+	color: white;
+}
+/*MAIN*/
+.main{
+	padding: 30px 0;
+}
+
+/*other pages*/
+.page-header{
+	min-height: 300px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.4;
+}
+.header-filter{
+	background-color: black;
+}
+.page-header-brand {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	color: white;
+}
+/*CARD*/
+.card {
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	padding: 20px 10px;
+}
+.card.card-background{
+	background-size: cover;
+	background-position: center;
+}
+.side-bar-title{
+	padding: 30px 0;
+	text-decoration: underline;
+}
+/*FOOTER*/
+footer ul{
+	list-style: none;
+	padding: 0 0;
+}
+.footer-first{
+	width: 100%;
+	padding: 20px 0 0 0;
+	color: #f2f2f2;
+	background-color: #333333;
+}
+.footer-second{
+	width: 100%;
+    min-height: 70px;
+    padding: 20px 0 0 0;
+	color: #f2f2f2;
+	background-color: #1b1a1a;
+}
+
+
+
+/*XM*/
+@media (max-width: 320px) {
+	.owl-carousel, .owl-carousel .item img {
+		height: 300px;
+	}
+}
+
+/*SM*/
+@media (max-width: 480px) and (min-width: 320px) {
+	.owl-carousel, .owl-carousel .item img {
+		height: 300px;
+	}
+}
+/*MD*/
+@media (max-width: 768px) and (min-width: 480px) {
+	.owl-carousel, .owl-carousel .item img {
+		height: 300px;
+	}
+}
+
